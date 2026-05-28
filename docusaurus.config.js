@@ -43,8 +43,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: '/',
           editUrl:
-            'https://github.com/your-username/home-printer-docs/tree/main/',
+            'https://github.com/techcom-writer/home-printer-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -72,7 +73,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/your-username/home-printer-docs',
+            href: 'https://github.com/techcom-writer/home-printer-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -86,15 +87,15 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/basics',
+                to: '/basics',
               },
               {
                 label: 'Installation Guide',
-                to: '/docs/install-configure',
+                to: '/install-configure',
               },
               {
                 label: 'Troubleshooting',
-                to: '/docs/troubleshooting',
+                to: '/troubleshooting',
               },
             ],
           },
@@ -103,7 +104,7 @@ const config = {
             items: [
               {
                 label: 'GitHub Issues',
-                href: 'https://github.com/your-username/home-printer-docs/issues',
+                href: 'https://github.com/techcom-writer/home-printer-docs/issues',
               },
             ],
           },
