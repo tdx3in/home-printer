@@ -28,3 +28,125 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* ============= MOBILE RESPONSIVE OPTIMIZATIONS ============= */
+
+/* Improve sidebar responsiveness */
+@media (max-width: 997px) {
+  .docSidebarContainer {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Main layout optimization */
+  .docMainContainer {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  /* Reduce padding on smaller screens */
+  .docItemContainer {
+    max-width: 100%;
+  }
+
+  /* Optimize navbar for mobile */
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar__title {
+    font-size: 1.2rem;
+  }
+
+  /* Better text sizing */
+  h1 {
+    font-size: 1.75rem !important;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+  }
+
+  h3 {
+    font-size: 1.2rem !important;
+  }
+
+  p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  /* Improve list readability */
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Better code block handling */
+  code {
+    font-size: 0.85rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .docusaurus-highlight-code-line {
+    display: block;
+    margin: 0 -1rem;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small device optimizations */
+  body {
+    font-size: 14px;
+  }
+
+  .navbar {
+    padding: 0.3rem 0.5rem;
+  }
+
+  .navbar__title {
+    font-size: 1rem;
+    display: none;
+  }
+
+  h1 {
+    font-size: 1.4rem !important;
+  }
+
+  h2 {
+    font-size: 1.1rem !important;
+  }
+
+  h3 {
+    font-size: 1rem !important;
+  }
+
+  /* Prevent horizontal scroll */
+  * {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .docMainContainer {
+    padding: 0 0.5rem;
+  }
+
+  /* Optimize table for mobile */
+  table {
+    font-size: 0.85rem;
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
+
+  /* Better spacing */
+  .margin-top--lg {
+    margin-top: 1rem !important;
+  }
+
+  .margin-bottom--lg {
+    margin-bottom: 1rem !important;
+  }
+}
