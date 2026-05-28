@@ -16,6 +16,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Getting Started',
+      collapsed: false,
       items: [
         'basics',
         'features',
@@ -24,6 +25,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Setup & Configuration',
+      collapsed: false,
       items: [
         'install-configure',
         'settings-reference',
@@ -32,6 +34,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Maintenance & Support',
+      collapsed: false,
       items: [
         'maintenance',
         'troubleshooting',
