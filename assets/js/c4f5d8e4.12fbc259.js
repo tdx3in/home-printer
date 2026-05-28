@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhome_printer_docs=self.webpackChunkhome_printer_docs||[]).push([[634],{192(e,r,s){s.r(r),s.d(r,{default:()=>n});s(6540);var t=s(6347),c=s(4848);function n(){return(0,c.jsx)(t.rd,{to:"/docs/"})}}}]);
