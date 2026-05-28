@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
-  const streamlitUrl = 'https://home-printer-rag-chatbot-gaencarjwjpk6ccgdwwjwv.streamlit.app';
+  const streamlitUrl = 'https://home-printer-rag-chatbot-gaencarjwjpk6ccgdwwjwv.streamlit.app/?embed=true';
 
   const toggleChat = () => {
     setIsOpen(!isOpen);
@@ -40,7 +40,9 @@ export default function ChatWidget() {
               src={streamlitUrl}
               className={styles.chatIframe}
               title="Home Printer Documentation Chatbot"
-              allow="clipboard-write; microphone"
+              sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-popups-to-escape-sandbox"
+              allow="clipboard-write; microphone; camera"
+              loading="lazy"
             />
           </div>
         </div>
