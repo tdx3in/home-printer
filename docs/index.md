@@ -18,24 +18,24 @@ Welcome to the comprehensive guide for home printers. This documentation covers 
     <h3>📖 Getting Started</h3>
     <p>New to printers? Start here to understand the basics and features.</p>
     <ul>
-      <li><Link to="/basics">Home Printer Basics</Link></li>
-      <li><Link to="/features">Common Features</Link></li>
+      <li><Link to="/docs/basics">Home Printer Basics</Link></li>
+      <li><Link to="/docs/features">Common Features</Link></li>
     </ul>
   </div>
   <div className="col col--4">
     <h3>⚙️ Setup & Configuration</h3>
     <p>Learn how to install and configure your printer for optimal performance.</p>
     <ul>
-      <li><Link to="/install-configure">Installation Guide</Link></li>
-      <li><Link to="/settings-reference">Settings Reference</Link></li>
+      <li><Link to="/docs/install-configure">Installation Guide</Link></li>
+      <li><Link to="/docs/settings-reference">Settings Reference</Link></li>
     </ul>
   </div>
   <div className="col col--4">
     <h3>🔧 Maintenance & Support</h3>
     <p>Keep your printer running smoothly with regular maintenance and troubleshooting.</p>
     <ul>
-      <li><Link to="/maintenance">Maintenance Guide</Link></li>
-      <li><Link to="/troubleshooting">Troubleshooting</Link></li>
+      <li><Link to="/docs/maintenance">Maintenance Guide</Link></li>
+      <li><Link to="/docs/troubleshooting">Troubleshooting</Link></li>
     </ul>
   </div>
 </div>

@@ -43,7 +43,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/',
           editUrl:
             'https://github.com/techcom-writer/home-printer-docs/tree/main/',
         },
@@ -87,15 +86,15 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/basics',
+                to: '/docs/basics',
               },
               {
                 label: 'Installation Guide',
-                to: '/install-configure',
+                to: '/docs/install-configure',
               },
               {
                 label: 'Troubleshooting',
-                to: '/troubleshooting',
+                to: '/docs/troubleshooting',
               },
             ],
           },
