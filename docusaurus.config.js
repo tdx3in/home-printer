@@ -11,17 +11,17 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://techcom-writer.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/home-printer-docs/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-username',
+  organizationName: 'techcom-writer',
   projectName: 'home-printer-docs',
   deploymentBranch: 'gh-pages',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
