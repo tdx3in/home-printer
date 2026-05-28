@@ -26,6 +26,16 @@ Use this guide to diagnose common printer problems.
 4. Print a network status page from the printer.
 5. Remove and add the printer again if the device still shows offline.
 
+
+## Poor Print Quality
+
+| Symptom | Likely cause | Fix |
+| --- | --- | --- |
+| Faded text | Low ink or toner | Replace supply |
+| Streaks | Dirty print head | Run print head cleaning |
+| Misaligned lines | Alignment issue | Run printer alignment |
+| Smudges | Wrong paper or wet ink | Use supported paper and allow drying time |
+
 ## Paper Jam
 
 1. Turn off the printer.
@@ -38,15 +48,6 @@ Use this guide to diagnose common printer problems.
 :::warning
 Do not pull paper forcefully against the feed direction.
 :::
-
-## Poor Print Quality
-
-| Symptom | Likely cause | Fix |
-| --- | --- | --- |
-| Faded text | Low ink or toner | Replace supply |
-| Streaks | Dirty print head | Run print head cleaning |
-| Misaligned lines | Alignment issue | Run printer alignment |
-| Smudges | Wrong paper or wet ink | Use supported paper and allow drying time |
 
 ## Escalate When
 
