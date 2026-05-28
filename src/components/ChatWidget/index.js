@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
-  const streamlitUrl = 'https://your-streamlit-app-url.streamlit.app?embed=true';
+  const streamlitUrl = 'https://home-printer-rag-chatbot-gaencarjwjpk6ccgdwwjwv.streamlit.app';
 
   const toggleChat = () => {
     setIsOpen(!isOpen);
