@@ -11,10 +11,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://techcom-writer.github.io',
+  url: 'https://tdx3in.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/home-printer-docs/',
+  baseUrl: '/home-printer/',
   trailingSlash: true,
   // GitHub pages deployment config.
   organizationName: 'techcom-writer',
